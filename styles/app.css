@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    max-width: 80vw;
+    max-width: 90vw;
 }
 
 .w-80 {
@@ -242,7 +242,7 @@ button.accordion-button:focus {
 }
 
 .m-l-15 {
-    margin-left: 15%;
+    margin-left: 15% !important;
 }
 
 header {
@@ -430,6 +430,8 @@ footer li p {
         width: 100% !important;
     }
 
+
+
     .navbar ul {
         width: 60vw !important;
     }
@@ -443,6 +445,7 @@ footer li p {
         padding-left: 0rem !important;
         margin-left: 0% !important;
     }
+
 
     header .logo {
         width: 20vw;
@@ -459,7 +462,7 @@ footer li p {
     }
 
     .col-4.card {
-        height: 500px !important;
+        height: 100% !important;
         margin-bottom: 20px !important;
     }
 
@@ -554,12 +557,12 @@ footer li p {
     }
 
     header a {
-        font-size: 1rem !important;
-        font-weight: 600 !important;
+        font-size: 1rem;
+        font-weight: 600;
     }
 
     .background {
-        height: 150vh !important;
+        height: 150vh;
     }
 
     .navbar {
@@ -630,8 +633,8 @@ footer li p {
 
 
     .radios {
-        margin-left: 0px !important;
-        padding-left: 0px !important;
+        margin-left: 0px;
+        padding-left: 0px;
     }
 
     .address-card {
@@ -668,10 +671,6 @@ footer li p {
 
     .contact-adress {
         display: contents;
-    }
-
-    .col-md-6.map {
-        width: 100%;
     }
 
 
@@ -733,6 +732,10 @@ footer li p {
         flex-direction: column;
     }
 
+    .mobile-text-center {
+        text-align: center !important;
+    }
+
     .form-group input {
         width: 100%;
     }
@@ -752,6 +755,7 @@ footer li p {
 
     footer .col-12 {
         justify-content: center;
+        margin-right: 0% !important;
     }
 
     footer ul {
@@ -800,6 +804,7 @@ footer li p {
 
     .mobile-p40 {
         padding: 40px;
+        padding-top: 10px !important;
     }
 
     header .logo {
