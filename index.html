@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- JavaScript Bundle with Popper -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
@@ -22,16 +21,16 @@
 
 <body>
 
-    <div class="news d-flex justify-content-center align-items-center p-2 text-center text-white">
+    <div class="news d-flex justify-content-center align-items-center p-2 text-center text-white mobile-hidden">
         <i class="fas fa-volume-up"></i>
-        <p class="lead m-0 small">Contory to popular belief, Lorem ipsum is random text, it has roots in a piece</p>
-        <p class="link m-0"><a class="text-white lead" href="index.html">Read News</a></p>
+        <p class="lead m-0">Contory to popular belief, Lorem ipsum is random text, it has roots in a piece</p>
+        <p class="link m-0 ps-4"><a class="text-white lead" href="index.html">Read News</a></p>
     </div>
 
-    <header class="container d-flex flex-md-row justify-content-between">
+    <header class="container d-flex flex-md-row justify-content-between mobile-p40 mobile-vw-100">
 
-        <div class="logo d-flex justify-content-center align-items-center p-2">
-            <img src="images/image14.png" alt="">
+        <div class="logo d-flex justify-content-center align-items-center p-2 mobile-vw-70">
+            <img src="images/image14.png" alt="logo">
         </div>
 
         <nav class="navbar navbar-expand-sm navbar-light bg-light z-5">
@@ -46,20 +45,21 @@
                 <div class="collapse navbar-collapse text-center" id="navbarsExample11">
                     <ul class="navbar-nav d-flex justify-content-between align-items-center">
                         <li class="nav-item active">
-                            <a class="nav-link text-decoration-none text-dark lead ml50" href="index.html">Online
+                            <a class="nav-link text-decoration-none text-dark lead ml50 fw-bold"
+                                href="index.html">Online
                                 Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ml50" href="#opening">Opening Hours</a>
+                            <a class="nav-link ml50 fw-bold" href="#opening">Opening Hours</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ml50" href="#home-visits">House
+                            <a class="nav-link ml50 fw-bold" href="#home-visits">House
                                 Doctor</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ml50" href="#about-clinic">Our Clinic</a>
+                            <a class="nav-link ml50 fw-bold" href="#about-clinic">Our Clinic</a>
                         </li>
-                        <li><a class="nav-link btn  text-white lead p-3 bg-green w-100 rounded-5 mobile-hidden"
+                        <li><a class="nav-link btn  text-white lead p-3 bg-green w-100 rounded-5 mobile-hidden fw-bold"
                                 href="#schedule">Book
                                 Appointment</a></li>
 
@@ -72,29 +72,32 @@
 
     </header>
 
-    <section class="mt-0 background d-flex justify-content-center align-items-center">
+    <section class="background d-flex justify-content-center align-items-center w-100 mb-4">
 
-        <div class="container .row d-flex flex-md-column">
+        <div class="container d-flex flex-md-column">
 
             <div
-                class="col-md-6 top-30 d-flex flex-md-column justify-content-center align-items-start order-1 position-absolute p-3 hidden">
+                class="col-12 col-md-6 top-30-left-5 d-flex flex-md-column justify-content-center align-items-start order-1 position-absolute p-3 hidden top-30">
                 <h1 class="w-70">Arztpraxis für Allgemeinmedizin Aachen</h1>
-                <p class="p-2 w-70 lead">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                <p class="p-1 w-70 lead i-Phone-5-w-100{">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                    amet sint.
+                    Velit
                     officia
                     consequat duis
                     enim velit mollit.</p>
-                <div class="btn bg-green text-white p-2 pd-20 w-35 lead rounded-5">Book Appointment</div>
+                <div class="btn bg-green text-white p-3 w-35 lead rounded-5 mobile-btn i-pro-btn">Book Appointment</div>
             </div>
 
-            <div class="col-md-6 card d-flex justify-content-center align-items-center order-2 position-absolute p-4">
+            <div
+                class="col-md-6 card card-time  d-flex justify-content-center align-items-center order-2 position-absolute p-4">
                 <div class="d-flex justify-content-center align-items-center"
                     style="background: #05aeb5; border-radius: 50%; width: 100px; height: 100px;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                        class="text-white bi bi-clock " viewBox="0 0 16 16">
+                        class="textite bi bi-clock " viewBox="0 0 16 16">
                         <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
                         <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
                     </svg></div>
-                <div class="card-body text-align-center " id="opening">
+                <div class="card-body text-align-center" id="opening">
                     <p class="text-white text-center lead fw-bold">Opening Hour</p>
                     <div class="d-flex p-2 ">
                         <div class="left text-white p-2 fw-bold">
@@ -114,7 +117,7 @@
                     </div>
 
                 </div>
-                <button class="btn btn-light w-100 p-3 lead fw-bold"> Important News <svg
+                <button class="btn btn-light p-3 lead fw-bold w-90"> Important News <svg
                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tree"
                         viewBox="0 0 16 16">
                         <path
@@ -125,17 +128,18 @@
             </div>
         </div>
 
+
     </section>
 
-    <section class="mt-4 pt-4 container">
+    <section class="pt-4 container my-4">
 
-        <div class="d-flex flex-md-row justify-content-center align-items-center mt-4 row">
+        <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center mt-4 row">
 
-            <div class="col-md-6 flex-md-column">
+            <div class="col-12 col-md-6 flex-md-column">
                 <h2 class="pb-4 mb-4 w-100">Take care of your health.</h2>
                 <div class="d-flex pt-3 align-items-center">
                     <div>
-                        <p class="n n-1 mr-10">1</p>
+                        <p class="n n-1 me-1">1</p>
                     </div>
                     <div class="p-2">
                         <h3 class="p-green">Vaccination appointment</h3>
@@ -144,7 +148,7 @@
                 </div>
                 <div class="d-flex pt-2 align-items-center">
                     <div>
-                        <p class="n n-2 mr-10">2</p>
+                        <p class="n n-2 me-1">2</p>
                     </div>
                     <div>
                         <h3 class="p-2">Vaccination appointment</h3>
@@ -153,7 +157,7 @@
                 </div>
                 <div class="d-flex pt-2 align-items-center">
                     <div>
-                        <p class="n n-3 mr-10">3</p>
+                        <p class="n n-3 me-1">3</p>
                     </div>
                     <div class="p-2">
                         <h3>Vaccination appointment</h3>
@@ -162,16 +166,16 @@
                 </div>
 
             </div>
-            <div class="col-md-6 d-flex flex-md-column
+            <div class="col-12 col-md-6 d-flex flex-md-column
               mt-3">
                 <img class="img-fluid" src="images/image25.jpg" alt="">
             </div>
         </div>
     </section>
 
-    <section class="schedule pt-4 mt-60">
+    <section class="schedule pt-4 m-t-60 my-4">
         <div class="container">
-            <div class="row">
+            <div class="row ipad-pro-flex-center">
                 <div class="card position-absolute d-flex justify-content-center align-items-center text-center text-white mx-2"
                     id="schedule">
                     <div class="d-flex justify-content-center align-items-center mt-4"
@@ -183,13 +187,13 @@
                         <p class="text-start">Velit tempor, aliquam vel mauris duis rhoncus maecenas Sed porttitor
                             lectus.
                         </p>
-                        <button class="btn bg-light mt-4 mb-4 lead p-3 fw-bold">Book an appointment</button>
+                        <button class="btn bg-light mt-4 mb-4 lead p-3 fw-bold w-90">Book an appointment</button>
                         <div class="d-flex justify-content-center align-items-center">
                             <hr class="w-100">
                             <p class="pt-3 fw-light">OR</p>
                             <hr class="w-100">
                         </div>
-                        <button class="btn btn-light mt-4 lead p-3 fw-bold">Video Consultation<svg
+                        <button class="btn btn-light mt-4 lead p-3 fw-bold w-90">Video Consultation<svg
                                 xmlns="http://www.w3.org/2000/svg" width="26" height="20" fill="currentColor"
                                 class="bi bi-camera-video" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -201,31 +205,33 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container my-4">
 
         <h2 id="expertieses" class="text-center p-4 fw-bold">Our Expertises</h2>
 
-
-
         <nav>
-            <div class="d-flex justify-content-between nav nav-tabs" id="nav-tab" role="tablist">
-                <button class="nav-link active fm" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Geriatrie</button>
-                <button class="nav-link fm" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Palliativmedizin</button>
-                <button class="nav-link fm" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-                    type="button" role="tab" aria-controls="nav-contact"
+            <div class="d-flex justify-content-between nav nav-tabs ipad-pro-flex-center" id="nav-tab" role="tablist">
+                <button class="nav-link active font-medium ipad-pro-flex-center" id="nav-home-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                    aria-selected="true">Geriatrie</button>
+                <button class="nav-link font-medium ipad-pro-flex-center" id="nav-profile-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                    aria-selected="false">Palliativmedizin</button>
+                <button class="nav-link font-medium ipad-pro-flex-center" id="nav-contact-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
                     aria-selected="false display-3">Verkehrsmedizin</button>
-                <button class="nav-link fm" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Flugmedizin</button>
+                <button class="nav-link font-medium ipad-pro-flex-center" id="nav-contact-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                    aria-selected="false">Flugmedizin</button>
             </div>
         </nav>
 
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                <div class="row d-flex justify-content-center align-items-center mt-4">
-                    <div class="mobile-reverse d-flex">
-                        <div class="col-md-6 d-flex flex-column justify-content-center align-items-start mb-4 p-4 ml-1">
+                <div class="row d-flex justify-content-center flex-column flex-lg-row align-items-center mt-4">
+                    <div class="mobile-reverse d-flex flex-sm-column-reverse flex-column-reverse flex-lg-row">
+                        <div
+                            class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start mb-4 p-4 ms-1">
                             <h2 class="pb-4 fw-bold w-70 text-start">Flight Medicine for The Pilots</h2>
                             <p class="text-start"> Wir erstellen Tauglichkeitszeugnisse der Klasse 2 (PPL Privatpiloten
                                 und
@@ -237,32 +243,40 @@
                                 -begleiter.</p>
                             <div class="d-flex align-items-center w-100">
                                 <hr class="w-10 border border-info border border-3">
-                                <p class="ml-1 text-uppercase pt-3 fw-bold  pl-2 ls-2 pointer">read more</p>
+                                <p class="ml-1 text-uppercase pt-3 fw-bold  ps-4 ls-2 pointer">read more</p>
                             </div>
                         </div>
-                        <div class="col-md-6 d-flex justify-content-center align-items-center mt-4 mb-4 p-4">
+                        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mt-4 mb-4 p-4">
                             <img class="w-100 rounded-5 img-fluid" src="images/image24.jpg" alt="airplane">
                         </div>
                     </div>
-                    <div class=" col-md-6 d-flex justify-content-center align-items-center mb-4 mt-4 p-4">
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mt-4 p-4">
                         <img class="w-100 h-50 rounded-5 img-fluid" src="images/image24.jpg" alt="airplane">
                     </div>
-                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-start mb-4 p-4  ml-1">
+
+                    <div
+                        class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start mb-4 p-4 ml-1">
                         <h2 class="pb-4 fw-bold w-70">Flight Medicine for The Pilots</h2>
-                        <p> Wir erstellen Tauglichkeitszeugnisse der Klasse 2 (PPL Privatpiloten und Ballonfahrer) sowie
+                        <p> Wir erstellen Tauglichkeitszeugnisse der Klasse 2 (PPL Privatpiloten und Ballonfahrer)
+                            sowie
                             für
-                            LAPL (Ultraleichtklasse). Darüber hinaus erstellen wir auch Zeugnisse für Flugbegleiterinnen
+                            LAPL (Ultraleichtklasse). Darüber hinaus erstellen wir auch Zeugnisse für
+                            Flugbegleiterinnen
                             und
                             -begleiter.</p>
                         <div class="d-flex align-items-center w-100">
                             <hr class="w-10 border border-info border border-3">
-                            <p class="ml-1 text-uppercase pt-3 fw-bold margin-left-1rem pl-2 ls-2 pointer">read more</p>
+                            <p class="ml-1 text-uppercase pt-3 fw-bold margin-left-1rem ps-4 ls-2 pointer">read more
+                            </p>
                         </div>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center align-items-center mt-4 mb-4">
+
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mt-4 mb-4">
                         <img class="w-100 h-50 img-fluid" src="images/1.png" alt="airplane">
                     </div>
-                    <div class="col-md-6 d-flex align-self-baseline flex-column mt-4 mb-4 pt-4 text-start margintop"
+
+
+                    <div class="col-12 col-md-6 d-flex align-self-baseline flex-column mt-4 mb-4 pt-4 text-start margintop"
                         id="about-clinic">
                         <h2 class="text-start fw-bold pb-2">About the Clinic</h2>
                         <p class="py-4 lead"> Liebe Patientinnen und Patienten,
@@ -283,13 +297,14 @@
                             Informieren Sie sich bei uns, welche Vorsorge Leistungen der gesetzlichen Kassen und
                             welche
                             Zusatz-Leistungen wir Ihnen anbieten können.</p>
-                        <div class="d-flex p-4 pl0">
-                            <hr class="w-10 border border-info border border-3 mt-25 ">
-                            <p class="ml-1 text-uppercase pt-3 fw-bold margin-left-1rem pl-2 ls-2 pointer ">Jetzt
+                        <div class="d-flex p-4 ps-0">
+                            <hr class="w-10 border border-info border border-3 m-t-25 ">
+                            <p class="ml-1 text-uppercase pt-3 fw-bold margin-left-1rem ps-4 ls-2 pointer">Jetzt
                                 Kontakt
                                 aufnehmen </p>
                         </div>
                     </div>
+
 
 
                 </div>
@@ -297,17 +312,15 @@
 
         </div>
 
-
         </div>
         </div>
-
 
     </section>
-    <!-- srediti slike da budu zelene -->
-    <section class="container mt-4 Partners mb-4">
-        <div class="d-flex line">
-            <p class="text-secondary lead">Our Partners / Our Clients</p>
-            <hr class=" border-light w-70 ml-10">
+
+    <section class="container Partners my-4">
+        <div class="d-flex line  align-items-start">
+            <h5 class="text-secondary">Our Partners / Our Clients</h5>
+            <hr class="border-light w-70 ms-10">
         </div>
         <div class="d-flex justify-content-between pt-4 mt-4 fg">
             <div class="filtered">
@@ -323,69 +336,67 @@
         </div>
     </section>
 
-    <section class="container stuff mt-4 pt-4 mb-4 pb-4">
+    <section class="container stuff my-4 py-4">
         <h2 class="text-center fw-bold pt-4 pb-4 mt-4 mb-4">Gemeinsam sind wir fur Sie da!</h2>
         <div class="row container d-flex justify-content-between align-items-center p-0">
-            <div class="col-4 card card-stuff p-4">
+            <div class="col-4 card card-stuff p-4 mb-4">
                 <img class="w-50 img-fluid" src="images/image 23.jpg" alt="">
                 <div class="card-body pt-4">
                     <p class="fw-normal pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sed sit
                         ultrices et sed metus
                         sollicitudin. Orci nullam vitae amet ullamcorper scelerisque</p>
-                    <p class="fw-bolder lead mb0 pt-4 ">Dr. med. Jens Kroner</p>
+                    <p class="fw-bolder lead mb-0 pt-4 ">Dr. med. Jens Kroner</p>
                     <p class="small pt-0">Title / Certificate</p>
                 </div>
             </div>
-            <div class="col-4 card card-stuff p-4">
+            <div class="col-4 card card-stuff p-4 mb-4">
                 <img class="w-50 img-fluid" src="images/image 21.jpg" alt="">
                 <div class="card-body pt-4">
                     <p class="fw-normal pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sed sit
                         ultrices et sed metus
                         sollicitudin. Orci nullam vitae amet ullamcorper scelerisque</p>
-                    <p class="fw-bolder lead mb0 pt-4 ">Dr. med. Andreas Werners</p>
+                    <p class="fw-bolder lead mb-0 pt-4 ">Dr. med. Andreas Werners</p>
                     <p class="small">Title / Certificate</p>
                 </div>
             </div>
-            <div class="col-4 card card-stuff p-4">
+            <div class="col-4 card card-stuff p-4 mb-4">
                 <img class="w-50 img-fluid" src="images/image20.jpg" alt="">
                 <div class="card-body">
                     <p class="fw-normal pt-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sed sit
                         ultrices et sed metus
                         sollicitudin. Orci nullam vitae amet ullamcorper scelerisque</p>
-                    <p class="fw-bolder lead mb0 pt-4">Dr. med. Carla Steffens</p>
+                    <p class="fw-bolder lead mb-0 pt-4">Dr. med. Carla Steffens</p>
                     <p class="small">Title / Certificate</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="w-100 mt-4 pt-4">
-        <div class="row address w-100">
+    <section class="w-100 pt-4 my-4">
+        <div class="row address w-100 d-flex flex-row">
             <div class="col-md-6 p-0 container contact-adress">
-                <div class="card address-card container text-white">
+                <div class="card address-card container text-white w-100 p-0">
                     <div class="address p-4 container w-100">
-                        <h3 class="mlmr20 ml15 text-left pb-4 mb-4 mt-4 pt-4">Address</h3>
+                        <h3 class="m-x-20 m-l-15 text-left pb-4 mb-4 mt-4 pt-4">Address</h3>
 
                         <div
-                            class="smaller lead d-flex flex-md-row flex-column justify-content-between ml15 mb-4 pb-4 text-white border-bottom h250px">
-                            <div>
+                            class="smaller lead d-flex flex-lg-row flex-column justify-content-between m-l-15 mb-4 pb-4 text-white border-bottom h250px">
+                            <div class="me-2">
                                 <p class="pb-0 mb-0 small">Gemeinschaftspraxis</p>
                                 <p class="pb-0 mb-0 small">für Allgemeinmedizin</p>
                                 <p class="pb-0 mb-0 small">Lütticher Str. 9</p>
                                 <p class="pb-0 mb-0 small">52064 Aachen</p>
                             </div>
-                            <div>
+                            <div class="ms-2">
                                 <p class="pb-0 mb-0 small"><span class="fw-bold">Tel.:</span> 0241 - 31 180 </p>
                                 <p class="pb-0 mb-0 small"><span class="fw-bold">Fax.:</span> 0241 - 73 64-0 </p>
                                 <p class="small">info@allgemeinmedizin-aachen.de</p>
                             </div>
                         </div>
 
-
-
-                        <div class="ml15 lead smaller">
+                        <div class="m-l-15 lead smaller">
                             <h3 class="mt-4"> Book a service</h3>
-                            <div class="form-group text-white d-flex justify-content-between w-100 ">
+                            <div class="form-group text-white d-flex justify-content-between w-100 align-items-center">
                                 <input type="name" class="form-control w-45 text-white" id="exampleInputName1"
                                     aria-describedby="nameHelp" placeholder="Enter name">
                                 <input type="email" class="form-control w-45 text-white" id="exampleInputEmail1"
@@ -394,28 +405,32 @@
                             <p class="mt-4">Please choose the service you want to book</p>
                         </div>
 
-                        <div class="d-flex mlmr20 ml15 d-flex justify-content-between smaller radios align-items-start">
+                        <div
+                            class="d-flex m-x-20 m-l-15 d-flex justify-content-between smaller radios flex-column align-items-start">
                             <div class="form-check form-check-inline d-flex justify-content-center align-items-center">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <input class="form-check-input me-2" type="checkbox" id="inlineCheckbox1"
+                                    value="option1">
                                 <label class="form-check-label lead" for="inlineCheckbox1">Rezepte</label>
                             </div>
                             <div class="form-check form-check-inline d-flex justify-content-center align-items-center">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <input class="form-check-input me-2" type="checkbox" id="inlineCheckbox2"
+                                    value="option2">
                                 <label class="form-check-label lead" for="inlineCheckbox2">Atteste</label>
                             </div>
                             <div class="form-check form-check-inline d-flex justify-content-center align-items-center">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                <input class="form-check-input me-2" type="checkbox" id="inlineCheckbox3"
+                                    value="option3">
                                 <label class="form-check-label lead" for="inlineCheckbox3">Impftermin</label>
                             </div>
 
                         </div> <button type="submit" value="Send"
-                            class="btn submit p-3 mlmr20 ml15 fw-bold w-45 btn bg-light mt-4">Kontakt
+                            class="btn submit p-3 m-x-20 m-l-15 fw-bold w-45 btn bg-light mt-4">Kontakt
                             aufnehmen</button>
                     </div>
 
                 </div>
             </div>
-            <div class="col-md-6 p-0">
+            <div class="col-md-6 p-0 map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4006.9846582455357!2d19.21720243778098!3d44.75294944579367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475be91cb02d7249%3A0xde5f5ab6329ada88!2sBijeljina!5e0!3m2!1sbs!2sba!4v1630580075639!5m2!1sbs!2sba"
                     width="100%" height="700px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -423,7 +438,7 @@
         </div>
     </section>
 
-    <section class="container pt-4 mt-4 home-visits mb-4 pt-4 mb50" id="home-visits">
+    <section class="container pt-4  home-visits my-4 pt-4 mb50" id="home-visits">
         <h2>Hausbesuche</h2>
         <div class="row d-flex mt-4 pt-4 mb-4 pb-4">
             <div class="col-md-6">
@@ -453,7 +468,7 @@
                                 <img class="img-fluid" style="width: 20px; height: 20px; " src="images/image 23.jpg"
                                     alt="">
 
-                                <p id="dr1" class="pl-2">Dr. med. Jens Kroner</p>
+                                <p id="dr1" class="ps-4">Dr. med. Jens Kroner</p>
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -480,7 +495,7 @@
                                         <p>nur nach Vereinbarung</p>
                                         <p> </p>
                                         <p></p>
-                                        <p class="mt5"> 16.00 - 17:00</p>
+                                        <p class="m-t5rem"> 16.00 - 17:00</p>
                                         <p></p>
                                     </div>
                                 </div>
@@ -493,7 +508,7 @@
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <img class="img-fluid" style="width: 20px; height: 20px;" src="images/image 21.jpg"
                                     alt="">
-                                <p id="dr2" class="pl-2">Dr. med. Andreas Werners</p>
+                                <p id="dr2" class="ps-4">Dr. med. Andreas Werners</p>
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -520,7 +535,7 @@
                                         <p>nur nach Vereinbarung</p>
                                         <p> </p>
                                         <p></p>
-                                        <p class="mt5"> 16.00 - 17:00</p>
+                                        <p class="m-t5rem"> 16.00 - 17:00</p>
                                         <p></p>
                                     </div>
                                 </div>
@@ -534,7 +549,7 @@
                                 <img class="img-fluid" style="width: 20px; height: 20px;" src="images/image20.jpg"
                                     alt="">
 
-                                <p id="dr3" class="pl-2">Dr. med. Carla Steffens</p>
+                                <p id="dr3" class="ps-4">Dr. med. Carla Steffens</p>
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -561,7 +576,7 @@
                                         <p>nur nach Vereinbarung</p>
                                         <p> </p>
                                         <p></p>
-                                        <p class="mt5"> 16.00 - 17:00</p>
+                                        <p class="m-t5rem"> 16.00 - 17:00</p>
                                         <p></p>
                                     </div>
                                 </div>
@@ -576,40 +591,40 @@
         </div>
     </section>
 
-    <footer class="container-fluid pt-4 mt-4">
-        <div class="d-flex row justify-content-around mlmr10">
-            <div class="col-12 text-center col-md-3 logo d-flex mt-3 ">
+    <footer class="container-fluid pt-4 mt-4 mb-4">
+        <div class="d-flex flex-md-column flex-lg-row row justify-content-around m-x-10 ipad-pro-flex-center">
+            <div class="col-12 text-center col-md-3 logo d-flex mt-3">
                 <div class="d-flex flex-column">
                     <div class="d-flex align-self-baseline ">
                         <img class="img-fluid" src="images/image14.png" alt="">
                     </div>
                     <div class="lead pt-3 text-start">
-                        <a class="none pt-4" href="#dr1">
+                        <a class="none pt-4 text-secondary mobile-text-center" href="#dr1">
                             <p>Dr. med. Jens Kroner</p>
                         </a>
-                        <a class="none pt-4" href="#dr2">
+                        <a class="none pt-4 text-secondary mobile-text-center" href="#dr2">
                             <p>Dr. med. Andreas Werners</p>
                         </a>
-                        <a class="none pt-4" href="#dr3">
+                        <a class="none pt-4 text-secondary mobile-text-center" href="#dr3">
                             <p>Dr. med. Carla Steffens</p>
                         </a>
-                        <p class="pt-1 small"><span class="fw-bolder
-                            ">©</span> Gemeinschaftspraxis</p>
+                        <p class="pt-1 small d-flex mobile-text-center mobile-hidden"><span class="fw-bolder">©</span>
+                            Gemeinschaftspraxis</p>
                     </div>
                 </div>
             </div>
-            <ul class="col-9 w-70 none d-flex justify-content-between align-self-baseline p-4">
-                <li class="">
+            <ul class="col-12 col-lg-9 s w-70 none d-flex justify-content-between align-self-baseline p-4">
+                <li>
                     <a class="none lead text-secondary text-uppercase fw-bold" href="#">Hausärtzliche Leistungen
                     </a>
                     <div class="p-2  mt-4 lead">
-                        <p class="pt-2 ">Geriatrie</p>
+                        <p class="pt-2">Geriatrie</p>
                         <p class="pt-2"> Palliativmedizin</p>
                         <p class="pt-2">Verkehrsmedizin</p>
                         <p class="pt-2">Flugmedizin</p>
                     </div>
                 </li>
-                <li class="">
+                <li>
                     <a class="none lead text-secondary text-uppercase fw-bold" href="#">Online-Services
                     </a>
                     <div class="p-2 mt-4 lead">
@@ -620,7 +635,7 @@
                     </div>
 
                 </li>
-                <li class="">
+                <li>
                     <a class="none lead text-secondary text-uppercase fw-bold" href="#">Unsere Praxis
                     </a>
                     <div class="p-2 mt-4 lead">
@@ -629,15 +644,12 @@
                         <p class="pt-2">Über uns
                         </p>
                     </div>
-
-
                 </li>
             </ul>
         </div>
 
         </div>
     </footer>
-
 
 </body>
 
